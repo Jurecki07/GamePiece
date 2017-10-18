@@ -8,15 +8,11 @@ public class GamePiece {
     String color;
 
     public int getPositionX() { return positionX; }
-    public void setPositionX(int positionX) {
-        this.positionX = positionX;
-    }
+
     public int getPositionY() {
         return positionY;
     }
-    public void setPositionY(int positionY) {
-        this.positionY = positionY;
-    }
+
     public boolean isFrozen() {
         return frozen;
     }
@@ -39,10 +35,10 @@ public class GamePiece {
 
 
     void move(int positionX, int positionY){
-        if(positionX<= 0 && positionY>= 0 {
+//        if(positionX<= 0 && positionY>= 100 {
             this.positionX = positionX;
             this.positionY = positionY;
-        }else System.out.println("Invalid movement");
+//        }else System.out.println("Invalid movement");
     }
 
     void freeze(){
