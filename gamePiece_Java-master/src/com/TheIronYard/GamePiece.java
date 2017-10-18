@@ -8,7 +8,9 @@ public class GamePiece {
     String color;
 
 
-    public int getPositionX() { return positionX; }
+    public int getPositionX() {
+        return positionX;
+    }
 
     public int getPositionY() {
         return positionY;
@@ -17,38 +19,49 @@ public class GamePiece {
     public boolean isFrozen() {
         return frozen;
     }
+
     public void setFrozen(boolean frozen) {
         this.frozen = frozen;
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public String getColor() {
         return color;
     }
+
     public void setColor(String color) {
         this.color = color;
     }
-    public GamePiece() { this.name = name; this.color = color;}
 
-
-    void move(int positionX, int positionY){
-//       if(positionX<= 0 && positionY>= 0) {
-//            this.positionX = positionX;
-//            this.positionY = positionY;
-//
-//       }else System.out.println("Invalid movement");
+    public GamePiece() {
+        this.name = name;
+        this.color = color;
     }
 
-    void freeze(){
+
+    void move(int positionX, int positionY) {
+        if (isFrozen()) {
+        }else {
+            this.positionX = positionX;
+            this.positionY = positionY;
+        }
+
+    }
+
+    void freeze() {
         this.frozen = true;
     }
 
-    void unfreeze(){
+    void unfreeze() {
         this.frozen = false;
     }
+
 
 }
