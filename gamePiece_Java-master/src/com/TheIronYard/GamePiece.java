@@ -7,6 +7,7 @@ public class GamePiece {
     String name;
     String color;
 
+
     public int getPositionX() { return positionX; }
 
     public int getPositionY() {
@@ -35,10 +36,11 @@ public class GamePiece {
 
 
     void move(int positionX, int positionY){
-//        if(positionX<= 0 && positionY>= 100 {
-            this.positionX = positionX;
-            this.positionY = positionY;
-//        }else System.out.println("Invalid movement");
+//       if(positionX<= 0 && positionY>= 0) {
+//            this.positionX = positionX;
+//            this.positionY = positionY;
+//
+//       }else System.out.println("Invalid movement");
     }
 
     void freeze(){
