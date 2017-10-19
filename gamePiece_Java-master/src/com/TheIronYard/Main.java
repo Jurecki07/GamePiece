@@ -28,9 +28,19 @@ public class Main {
             int posx = gamePiece.getPositionX();
             int posy = gamePiece.getPositionY();
 // Call the move () method thats a diffrent then before then call the move
+            gamePiece.move(posx + 1, posy + 1);
+
+//Verify that if the game piece is frozen then the call to move does not change the position.
+
+            if (posx == gamePiece.getPositionX() && posy == gamePiece.getPositionY()) {
+            System.out.println("Testing is complete that if the game piece is frozen then the call to move does not change the position.");
+        } else {
+            System.out.println("Test failed");
         }
     }
-}
+
+        }
+    }
 
 
 
@@ -41,6 +51,9 @@ public class Main {
 
 
 
+
+
+// Scrap
 //                System.out.println("positionX before moving: " + gamePiece.getPositionX());
 //                System.out.println("positionY before moving: " + gamePiece.getPositionY());
 //
