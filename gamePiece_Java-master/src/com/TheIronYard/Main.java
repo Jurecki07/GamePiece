@@ -21,8 +21,7 @@ public class Main {
             } else {
                 System.out.println("The unfreeze method worked");
 
-            }
-        }
+            } }
         gamePiece.freeze();
         if (!gamePiece.isFrozen()) {
             int posx = gamePiece.getPositionX();
@@ -32,15 +31,13 @@ public class Main {
 
 //Verify that if the game piece is frozen then the call to move does not change the position.
 
+            // If the game piece is frozen then PosX or Posy will be null as the game piece is frozen
+
             if (posx == gamePiece.getPositionX() && posy == gamePiece.getPositionY()) {
             System.out.println("Testing is complete that if the game piece is frozen then the call to move does not change the position.");
         } else {
             System.out.println("Test failed");
-        }
-    }
-
-        }
-    }
+        }}}}
 
 
 
