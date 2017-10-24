@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="870d7e11-1ffc-410d-bf54-3dd8601913f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gamePiece_Java-master/src/com/TheIronYard/Main.java" afterPath="$PROJECT_DIR$/gamePiece_Java-master/src/com/TheIronYard/Main.java" />
-    </list>
+    <list default="true" id="870d7e11-1ffc-410d-bf54-3dd8601913f6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +44,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gamePiece_Java-master/src/com/TheIronYard/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -295,12 +292,12 @@
       <workItem from="1508332463620" duration="3928000" />
       <workItem from="1508359384610" duration="4575000" />
       <workItem from="1508424911771" duration="1355000" />
-      <workItem from="1508857850327" duration="813000" />
+      <workItem from="1508857850327" duration="891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16138000" />
+    <option name="totallyTimeSpent" value="16216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1093" extended-state="0" />
@@ -506,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gamePiece_Java-master/src/com/TheIronYard/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

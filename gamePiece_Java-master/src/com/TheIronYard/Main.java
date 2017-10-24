@@ -24,7 +24,7 @@ public class Main {
             }
         }
 //        gamePiece.freeze();
-        if (!gamePiece.isFrozen()) {
+        if (gamePiece.isFrozen()) {
             int posx = gamePiece.getPositionX();
             int posy = gamePiece.getPositionY();
             gamePiece.move(posx + 1, posy + 1);
@@ -35,7 +35,7 @@ public class Main {
             }
         }
         gamePiece.freeze();
-        if (gamePiece.isFrozen()) {
+        if (!gamePiece.isFrozen()) {
             int posx = gamePiece.getPositionX();
             int posy = gamePiece.getPositionY();
             gamePiece.move(posx + 1, posy + 1);
