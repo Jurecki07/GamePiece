@@ -19,56 +19,34 @@ public class Main {
             if (gamePiece.isFrozen()) {
                 System.out.println("The unfreeze method worked");
             } else {
-                System.out.println("The unfreeze method worked");
+                System.out.println("The unfreeze did not work");
 
-            } }
-        gamePiece.freeze();
+            }
+        }
+//        gamePiece.freeze();
         if (!gamePiece.isFrozen()) {
             int posx = gamePiece.getPositionX();
             int posy = gamePiece.getPositionY();
-// Call the move () method thats a diffrent then before then call the move
             gamePiece.move(posx + 1, posy + 1);
-
-//Verify that if the game piece is frozen then the call to move does not change the position.
-
-            // If the game piece is frozen then PosX or Posy will be null as the game piece is frozen
-
             if (posx == gamePiece.getPositionX() && posy == gamePiece.getPositionY()) {
-            System.out.println("Testing is complete that if the game piece is frozen then the call to move does not change the position.");
-        } else {
-            System.out.println("Test failed");
-        }}}}
+                System.out.println("Testing move method does NOT change when frozen");
+            } else {
+                System.out.println("Test failed");
+            }
+        }
+        gamePiece.freeze();
+        if (gamePiece.isFrozen()) {
+            int posx = gamePiece.getPositionX();
+            int posy = gamePiece.getPositionY();
+            gamePiece.move(posx + 1, posy + 1);
+            if (posx != gamePiece.getPositionX() && posy == gamePiece.getPositionY()) {
+                System.out.println("Testing move method DOES change when frozen");
+            } else {
+                System.out.println("Test Failed");
+            }
+        }
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-// Scrap
-//                System.out.println("positionX before moving: " + gamePiece.getPositionX());
-//                System.out.println("positionY before moving: " + gamePiece.getPositionY());
-//
-//                gamePiece.move(0, 0);
-//                {
-//                    System.out.println("positionX after moving: " + gamePiece.getPositionX());
-//                    System.out.println("positionY after moving: " + gamePiece.getPositionY());
-//                }
-//            }
-//
-//            if (gamePiece.isFrozen()) {
-//                System.out.println(gamePiece.move(0, 0, ) + " is frozen and can't move");
-//            }
-//
-//        }
-//    }
-
-
-
-// Line 40 has issues with the logic as you are returning void.
 
